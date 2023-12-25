@@ -43,4 +43,27 @@ after opening all the required windows we need to set those in such a way that a
    codes and enter git status in git terminal 
 
    if it shows your files in red colour then it means your files are untracked
-   
+   to add your files enter :
+                            git add -A in the terminal
+
+after adding the files we need to commit the changes to do it use the following command:
+                                                                                        git commit -m "then put your commit message"
+
+TIP : always run git status in the terminal after certain intrevals of time
+
+we can make files in visual studio code but we can also make files through git 
+FOR EXAMPLE : i want to make a file named bla bla.py then i will enter:
+                                                                        touch bla bla.py 
+                                                                        {do it in the terminal}
+
+touch is a command in git which makes files 
+
+if we even write a simple letter in git , it gets modified so add all the files after certain intrevals of time
+
+checkout command : if someone has deleated or spoiled your code then , on that time you can use checkout command
+eg : if a boy comes to your house and he deleated all your important codes then you can get your code by
+     checkout command.
+     git checkout bla bla.py
+{it matches your working directory from your last commit}
+
+                  
