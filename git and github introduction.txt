@@ -1,0 +1,46 @@
+first question arises that what is git ?
+answer --> it is a distributive version control system
+
+define:
+distributive version control system : it means that everyone in your app developement team has a copy of 
+                                      the coding of app on which you are working
+
+git hub : it is the website of git
+
+IMPORTANT THING ABOUT GIT HUB : it saves our all the codes which we have pushed on it 
+                                FOR EXAMPLE : you have done an important code and you have broken your laptop
+                                              then you can get those codes from git hub 
+                                
+IMPORTANT --> you can get those codes only if you have pushed them on git hub
+
+THINGS we need to do in git at first:
+
+{1} we need to tell git our name and email
+for that we need to enter the following command:
+
+NAME :
+        git comfig --global user.name raghav
+
+EMAIL :
+        git comfig --global user.email then your email id
+
+to check your email and name enter the following programme:
+    name:
+            git comfig --global user.name
+
+    email:
+            git comfig --global user.email
+
+{2} after that we need to initialize our folder for that enter :
+                                                                git init
+now to start coding through git enter:
+                                        code .
+
+{visual studio code will automatically open}
+after opening all the required windows we need to set those in such a way that all are visible
+
+=> now if you are done with the writing of all your codes and you have initialized your folder then save your
+   codes and enter git status in git terminal 
+
+   if it shows your files in red colour then it means your files are untracked
+   
