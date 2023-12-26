@@ -71,3 +71,19 @@ if there are too many files then you can symply use git checkout -f
 git log : this command shows us all the commits which we have done
 rm command : this command deleates unwanted files 
 for example : git rm bla bla.py
+
+branches: think if you are working in facebook and you see an error in one code of the website , you want to fix
+          it , but if you do any mistake the whole website can crash so , in that case you will create a branch
+
+branch is a seperate version of your code , meaning that you can do whatever work you want to do in the coding
+of a website without affecting the main working directory
+
+to create a branch you have to first check the branch on which you are : git branch
+{if this command shows master then it means that you are all ready to create a branch}
+IMPORTANT : you should first check that wether you have commited all your changes or not and if you have not done 
+            that it will not create a branch
+
+AFTER checking the branch on which youu are you can create a branch through this command : git branch feature1
+{you can create many branches}
+to switch to your branch use this command: {git checkout feature1}
+if your code gets good you can merge branch with the working directory
