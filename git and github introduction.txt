@@ -64,6 +64,10 @@ checkout command : if someone has deleated or spoiled your code then , on that t
 eg : if a boy comes to your house and he deleated all your important codes then you can get your code by
      checkout command.
      git checkout bla bla.py
-{it matches your working directory from your last commit}
+{it maches your working directory from your last commit}
+if there are too many files then you can symply use git checkout -f
+{it will mach all your files to your old commit }
 
-                  
+git log : this command shows us all the commits which we have done
+rm command : this command deleates unwanted files 
+for example : git rm bla bla.py
