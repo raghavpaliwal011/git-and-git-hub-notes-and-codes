@@ -85,5 +85,8 @@ IMPORTANT : you should first check that wether you have commited all your change
 
 AFTER checking the branch on which youu are you can create a branch through this command : git branch feature1
 {you can create many branches}
-to switch to your branch use this command: {git checkout feature1}
-if your code gets good you can merge branch with the working directory
+to switch to your branch use this command: {git checkout feature1} and to return to your working directory
+use this command {git checkout master}
+if your code gets good you can merge branch with the working directory : git merge feature1
+
+{this file has been fixed}
